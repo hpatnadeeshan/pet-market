@@ -1,0 +1,498 @@
+[
+ {
+   "model": "products.category",
+   "pk": 20,
+   "fields": {
+      "name": "Bird>Cockatiel Food",
+      "name_id": "Bird>Cockatiel_Food"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 49,
+   "fields": {
+      "name": "Bird>Cockatiel Toys & Perches",
+      "name_id": "Bird>Cockatiel_Toys_&_Perches"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 48,
+   "fields": {
+      "name": "Bird>Feeders & Waterers",
+      "name_id": "Bird>Feeders_&_Waterers"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 50,
+   "fields": {
+      "name": "Bird>Parakeet Food",
+      "name_id": "Bird>Parakeet_Food"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 44,
+   "fields": {
+      "name": "Bird>Wild Bird",
+      "name_id": "Bird>Wild_Bird"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 6,
+   "fields": {
+      "name": "Cat>Bowls & Feeders",
+      "name_id": "Cat>Bowls_&_Feeders"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 38,
+   "fields": {
+      "name": "Cat>Clothing & Accessories",
+      "name_id": "Cat>Clothing_&_Accessories"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 47,
+   "fields": {
+      "name": "Cat>Crates, Pens & Gates",
+      "name_id": "Cat>Crates,_Pens_&_Gates"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 24,
+   "fields": {
+      "name": "Cat>Food",
+      "name_id": "Cat>Food"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 3,
+   "fields": {
+      "name": "Cat>Grooming",
+      "name_id": "Cat>Grooming"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 40,
+   "fields": {
+      "name": "Cat>Healthcare",
+      "name_id": "Cat>Healthcare"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 2,
+   "fields": {
+      "name": "Cat>Leashes, Collars & Harnesses",
+      "name_id": "Cat>Leashes,_Collars_&_Harnesses"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 10,
+   "fields": {
+      "name": "Cat>Litter & Accessories",
+      "name_id": "Cat>Litter_&_Accessories"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 14,
+   "fields": {
+      "name": "Cat>Toys",
+      "name_id": "Cat>Toys"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 18,
+   "fields": {
+      "name": "Cat>Treats",
+      "name_id": "Cat>Treats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 31,
+   "fields": {
+      "name": "Cat>Trees, Condos & Scratchers",
+      "name_id": "Cat>Trees,_Condos_&_Scratchers"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 37,
+   "fields": {
+      "name": "Cat>Vitamins & Supplements",
+      "name_id": "Cat>Vitamins_&_Supplements"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 23,
+   "fields": {
+      "name": "Dog>Beds",
+      "name_id": "Dog>Beds"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 33,
+   "fields": {
+      "name": "Dog>Carriers & Travel",
+      "name_id": "Dog>Carriers_&_Travel"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 7,
+   "fields": {
+      "name": "Dog>Cleaning & Potty",
+      "name_id": "Dog>Cleaning_&_Potty"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 5,
+   "fields": {
+      "name": "Dog>Clothing & Accessories",
+      "name_id": "Dog>Clothing_&_Accessories"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 45,
+   "fields": {
+      "name": "Dog>Flea & Tick",
+      "name_id": "Dog>Flea_&_Tick"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 19,
+   "fields": {
+      "name": "Dog>Food",
+      "name_id": "Dog>Food"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 56,
+   "fields": {
+      "name": "Dog>Gifts & Books",
+      "name_id": "Dog>Gifts_&_Books"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 17,
+   "fields": {
+      "name": "Dog>Grooming",
+      "name_id": "Dog>Grooming"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 36,
+   "fields": {
+      "name": "Dog>Healthcare",
+      "name_id": "Dog>Healthcare"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 16,
+   "fields": {
+      "name": "Dog>Leashes, Collars & Harnesses",
+      "name_id": "Dog>Leashes,_Collars_&_Harnesses"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 11,
+   "fields": {
+      "name": "Dog>Toys",
+      "name_id": "Dog>Toys"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 22,
+   "fields": {
+      "name": "Dog>Treats",
+      "name_id": "Dog>Treats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 27,
+   "fields": {
+      "name": "Dog>Vitamins & Supplements",
+      "name_id": "Dog>Vitamins_&_Supplements"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 13,
+   "fields": {
+      "name": "Farm Animal>Chicken",
+      "name_id": "Farm_Animal>Chicken"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 57,
+   "fields": {
+      "name": "Farm Animal>Cow",
+      "name_id": "Farm_Animal>Cow"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 1,
+   "fields": {
+      "name": "Farm Animal>Goat",
+      "name_id": "Farm_Animal>Goat"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 15,
+   "fields": {
+      "name": "Farm Animal>Pig",
+      "name_id": "Farm_Animal>Pig"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 26,
+   "fields": {
+      "name": "Fish>Filters & Media",
+      "name_id": "Fish>Filters_&_Media"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 4,
+   "fields": {
+      "name": "Fish>Heaters & Thermometers",
+      "name_id": "Fish>Heaters_&_Thermometers"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 41,
+   "fields": {
+      "name": "Fish>Lighting",
+      "name_id": "Fish>Lighting"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 8,
+   "fields": {
+      "name": "Fish>Pond Shop",
+      "name_id": "Fish>Pond_Shop"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 12,
+   "fields": {
+      "name": "Fish>Saltwater Fish Shop",
+      "name_id": "Fish>Saltwater_Fish_Shop"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 55,
+   "fields": {
+      "name": "Fish>Water Care",
+      "name_id": "Fish>Water_Care"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 32,
+   "fields": {
+      "name": "Horse>Blankets",
+      "name_id": "Horse>Blankets"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 54,
+   "fields": {
+      "name": "Horse>Feed & Treats",
+      "name_id": "Horse>Feed_&_Treats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 28,
+   "fields": {
+      "name": "Horse>Grooming",
+      "name_id": "Horse>Grooming"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 25,
+   "fields": {
+      "name": "Horse>Health & Wellness",
+      "name_id": "Horse>Health_&_Wellness"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 42,
+   "fields": {
+      "name": "Horse>Riding Gear",
+      "name_id": "Horse>Riding_Gear"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 58,
+   "fields": {
+      "name": "Horse>Stable Supplies",
+      "name_id": "Horse>Stable_Supplies"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 39,
+   "fields": {
+      "name": "Horse>Tack & Saddlery",
+      "name_id": "Horse>Tack_&_Saddlery"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 9,
+   "fields": {
+      "name": "Pet Parents>Personalized Gifts",
+      "name_id": "Pet_Parents>Personalized_Gifts"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 35,
+   "fields": {
+      "name": "Pharmacy>Dog Pharmacy",
+      "name_id": "Pharmacy>Dog_Pharmacy"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 43,
+   "fields": {
+      "name": "Pharmacy>Horse Pharmacy",
+      "name_id": "Pharmacy>Horse_Pharmacy"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 60,
+   "fields": {
+      "name": "Reptile>Bearded Dragon Heating & Lighting",
+      "name_id": "Reptile>Bearded_Dragon_Heating_&_Lighting"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 21,
+   "fields": {
+      "name": "Reptile>D�cor & Accessories",
+      "name_id": "Reptile>D�cor_&_Accessories"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 52,
+   "fields": {
+      "name": "Reptile>Food & Treats",
+      "name_id": "Reptile>Food_&_Treats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 61,
+   "fields": {
+      "name": "Reptile>Turtle",
+      "name_id": "Reptile>Turtle"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 51,
+   "fields": {
+      "name": "Small Pet>Beds, Hideouts & Toys",
+      "name_id": "Small_Pet>Beds,_Hideouts_&_Toys"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 29,
+   "fields": {
+      "name": "Small Pet>Ferret Cages & Habitats",
+      "name_id": "Small_Pet>Ferret_Cages_&_Habitats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 62,
+   "fields": {
+      "name": "Small Pet>Food",
+      "name_id": "Small_Pet>Food"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 30,
+   "fields": {
+      "name": "Small Pet>Gifts & Books",
+      "name_id": "Small_Pet>Gifts_&_Books"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 59,
+   "fields": {
+      "name": "Small Pet>Hamster Cages & Habitats",
+      "name_id": "Small_Pet>Hamster_Cages_&_Habitats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 53,
+   "fields": {
+      "name": "Small Pet>Hedgehog Treats",
+      "name_id": "Small_Pet>Hedgehog_Treats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 46,
+   "fields": {
+      "name": "Small Pet>Rat Cages & Habitats",
+      "name_id": "Small_Pet>Rat_Cages_&_Habitats"
+   }
+},
+ {
+   "model": "products.category",
+   "pk": 34,
+   "fields": {
+      "name": "Small Pet>Sugar Glider Cages & Habitats",
+      "name_id": "Small_Pet>Sugar_Glider_Cages_&_Habitats"
+   }
+}
+]

@@ -1,0 +1,35 @@
+<script>
+    $(document).ready(function () {
+        $(".btn-plus").click(function () {
+            var inputField = $(this).closest(".input-group").find(".qty_input");
+            var currentValue = parseInt(inputField.val());
+            var maxValue = parseInt(inputField.attr("max"));
+
+            if (!maxValue || currentValue < maxValue) {
+                inputField.val(Math.min(currentValue + 1, 99)); // Limit to 99
+            }
+        });
+
+        $(".btn-minus").click(function () {
+            var inputField = $(this).closest(".input-group").find(".qty_input");
+            var currentValue = parseInt(inputField.val());
+            var minValue = parseInt(inputField.attr("min"));
+
+            if (!minValue || currentValue > minValue) {
+                inputField.val(Math.max(currentValue - 1, 1)); // Limit to 1
+            }
+        });
+
+        $(".qty_input").on('input', function () {
+            var inputValue = parseInt($(this).val());
+            var minValue = parseInt($(this).attr("min"));
+            var maxValue = parseInt($(this).attr("max"));
+
+            if (isNaN(inputValue) || inputValue < 1) {
+                $(this).val(1); // Set to minimum value if less than 1 or NaN
+            } else if (maxValue && inputValue > maxValue) {
+                $(this).val(maxValue); // Set to maximum value if greater than maxValue
+            }
+        });
+    });
+</script>
