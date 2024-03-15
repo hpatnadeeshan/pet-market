@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/tnadeeshan/MS-4.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "heroku"]
+	url = https://git.heroku.com/pet-market.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "new-origin"]
+	url = https://github.com/hpatnadeeshan/Milestone-4.git
+	fetch = +refs/heads/*:refs/remotes/new-origin/*
