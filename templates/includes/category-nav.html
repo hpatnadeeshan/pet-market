@@ -1,0 +1,166 @@
+<nav class="navbar navbar-expand-sm navbar-light">
+    <button class="navbar-toggler d-sm-none" type="button" data-toggle="collapse" data-target="#category-nav"
+        aria-controls="category-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="category-nav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    All Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=average_rating&direction=desc">By Rating</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
+                    <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dogDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Dog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dogDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Clothing & Accessories'|urlencode }}">Clothing & Accessories</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Cleaning & Potty'|urlencode }}">Cleaning & Potty</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Food'|urlencode }}">Food</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Toys'|urlencode }}">Toys</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Healthcare'|urlencode }}">Healthcare</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Beds'|urlencode }}">Beds</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Carriers & Travel'|urlencode }}">Carriers & Travel</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Flea & Tick'|urlencode }}">Flea & Tick</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Gifts & Books'|urlencode }}">Gifts & Books</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Grooming'|urlencode }}">Grooming</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Leashes, Collars & Harnesses'|urlencode }}">Leashes, Collars & Harnesses</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Treats'|urlencode }}">Treats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Vitamins & Supplements'|urlencode }}">Vitamins & Supplements</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Clothing & Accessories/Dog>Treats/Dog>Leashes, Collars & Harnesses/Dog>Grooming/Dog>Cleaning & Potty/Dog>Food/Dog>Toys/Dog>Healthcare/Dog>Beds/Dog>Carriers & Travel/Dog>Flea & Tick/Dog>Gifts & Books/Dog>Vitamins & Supplements'|urlencode }}">All dog products</a>
+                </div>
+            </li>
+            
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="catDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Cat
+                </a>
+                <div class="dropdown-menu" aria-labelledby="catDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Grooming'|urlencode }}">Grooming</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Treats'|urlencode }}">Treats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Bowls & Feeders'|urlencode }}">Bowls & Feeders</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Toys'|urlencode }}">Toys</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Healthcare'|urlencode }}">Healthcare</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Crates, Pens & Gates'|urlencode }}">Crates, Pens & Gates</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Clothing & Accessories'|urlencode }}">Clothing & Accessories</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Food'|urlencode }}">Food</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Leashes, Collars & Harnesses'|urlencode }}">Leashes, Collars & Harnesses</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Litter & Accessories'|urlencode }}">Litter & Accessories</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Trees, Condos & Scratchers'|urlencode }}">Trees, Condos & Scratchers</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Vitamins & Supplements'|urlencode }}">Vitamins & Supplements</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Cat>Grooming/Cat>Treats/Cat>Bowls & Feeders/Cat>Toys/Cat>Healthcare/Cat>Crates, Pens & Gates/Cat>Clothing & Accessories/Cat>Food/Cat>Leashes, Collars & Harnesses/Cat>Litter & Accessories/Cat>Trees, Condos & Scratchers/Cat>Vitamins & Supplements'|urlencode }}">All Cat products</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="fishDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Fish
+                </a>
+                <div class="dropdown-menu" aria-labelledby="fishDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Heaters & Thermometers'|urlencode }}">Heaters & Thermometers</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Pond Shop'|urlencode }}">Pond Shop</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Filters & Media'|urlencode }}">Filters & Media</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Lighting'|urlencode }}">Lighting</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Water Care'|urlencode }}">Water Care</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Saltwater Fish Shop'|urlencode }}">Saltwater Fish Shop</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Fish>Heaters & Thermometers/Fish>Pond Shop/Fish>Filters & Media/Fish>Lighting/Fish>Water Care/Fish>Saltwater Fish Shop'|urlencode }}">All fish products</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="birdDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Bird
+                </a>
+                <div class="dropdown-menu" aria-labelledby="birdDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Bird>Cockatiel Food'|urlencode }}">Cockatiel Food</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Bird>Feeders & Waterers'|urlencode }}">Feeders & Waterers</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Bird>Cockatiel Toys & Perches'|urlencode }}">Toys & Perches</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Bird>Wild Bird'|urlencode }}">Wild Bird</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Bird>Parakeet Food'|urlencode }}">Parakeet Food</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Bird>Cockatiel Food/Bird>Feeders & Waterers/Bird>Cockatiel Toys & Perches/Bird>Wild Bird/Bird>Parakeet Food'|urlencode }}">All Bird products</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="reptileDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Reptile
+                </a>
+                <div class="dropdown-menu" aria-labelledby="reptileDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Reptile>Décor & Accessories'|urlencode }}">Décor & Accessories</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Reptile>Food & Treats'|urlencode }}">Food & Treats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Reptile>Bearded Dragon Heating & Lighting'|urlencode }}">Heating & Lighting</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Reptile>Turtle'|urlencode }}">Turtle</a> 
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Reptile>Décor & Accessories/Reptile>Food & Treats/Reptile>Bearded Dragon Heating & Lighting/Reptile>Turtle'|urlencode }}">All Reptile products</a>                   
+                </div>  
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="horseDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Horse
+                </a>
+                <div class="dropdown-menu" aria-labelledby="horseDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Health & Wellness'|urlencode }}">Health & Wellness</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Grooming'|urlencode }}">Grooming</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Tack & Saddlery'|urlencode }}">Tack & Saddlery</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Feed & Treats'|urlencode }}">Feed & Treats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Stable Supplies'|urlencode }}">Stable Supplies</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Blankets'|urlencode }}">Blankets</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Riding Gear'|urlencode }}">Riding Gear</a> 
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Horse>Health & Wellness/Horse>Grooming/Horse>Tack & Saddlery/Horse>Feed & Treats/Horse>Stable Supplies/Horse>Blankets/Horse>Riding Gear'|urlencode }}">All Horse products</a>                   
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="smallPetDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Small Pet
+                </a>
+                <div class="dropdown-menu" aria-labelledby="smallPetDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Sugar Glider Cages & Habitats'|urlencode }}">Sugar Glider Cages & Habitats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Gifts & Books'|urlencode }}">Gifts & Books</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Beds, Hideouts & Toys'|urlencode }}">Beds, Hideouts & Toys</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Food'|urlencode }}">Food</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Ferret Cages & Habitats'|urlencode }}">Ferret Cages & Habitats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Hamster Cages & Habitats'|urlencode }}">Hamster Cages & Habitats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Hedgehog Treats'|urlencode }}">Hedgehog Treats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Rat Cages & Habitats'|urlencode }}">Rat Cages & Habitats</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Small Pet>Sugar Glider Cages & Habitats/Small Pet>Gifts & Books/Small Pet>Beds, Hideouts & Toys/Small Pet>Ferret Cages & Habitats/Small Pet>Hamster Cages & Habitats/Small Pet>Hedgehog Treats/Small Pet>Rat Cages & Habitats'|urlencode }}">All Small Pet products</a>                    
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pharmacyDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pharmacy
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pharmacyDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Pharmacy>Dog Pharmacy'|urlencode }}">Dog Pharmacy</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Pharmacy>Horse Pharmacy'|urlencode }}">Horse Pharmacy</a> 
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Dog>Vitamins & Supplements/Pharmacy>Horse Pharmacy'|urlencode }}">All Pharmacy products</a>                   
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="farmAnimalDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Farm Animal
+                </a>
+                <div class="dropdown-menu" aria-labelledby="farmAnimalDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Farm Animal>Goat'|urlencode }}">Goat</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Farm Animal>Chicken'|urlencode }}">Chicken</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Farm Animal>Pig'|urlencode }}">Pig</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Farm Animal>Cow'|urlencode }}">Cow</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category={{ 'Farm Animal>Goat/Farm Animal>Chicken/Farm Animal>Pig/Farm Animal>Cow'|urlencode }}">All Farm Animals</a>                    
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>

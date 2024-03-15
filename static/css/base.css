@@ -1,0 +1,229 @@
+/* Resetting default margin and padding */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting background image for the body */
+body {
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    /* Montserrat as the body font */
+}
+
+.background-container {
+    background: url('/media/background_image.png') no-repeat center top;
+    background-size: cover;
+    min-height: calc(100vh - 164px);
+    /* Adjusted height */
+    padding-top: 50px;
+    /* Ensure content below header */
+}
+
+/* Styling for the welcome message */
+.welcome-font {
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* Styling for the shop now button */
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+/* Hover effect for the shop now button */
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus {
+    background: #222;
+    color: white;
+}
+
+/* Media query for larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* Media query for fixed top navbar on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+}
+
+/* category-bar  */
+
+
+.header-container .header-category-bar {
+    background-color: #1e65ad;
+    padding: 10px 0;
+}
+
+.header-container .header-category-bar .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.header-container .header-category-bar .nav-link:hover {
+    color: #555;
+}
+
+/* Style for dropdown menu */
+.header-container .header-category-bar .dropdown-menu {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.header-container .header-category-bar .dropdown-item {
+    color: #333;
+}
+
+
+.header-container .header-category-bar .dropdown-item:hover {
+    background-color: #e9ecef;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #333;
+}
+
+.footer h5 {
+    color: #555;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #555;
+}
+
+.footer .list-inline {
+    padding-left: 0;
+}
+
+.footer .list-inline-item {
+    margin-right: 10px;
+}
+
+.footer .list-inline-item:last-child {
+    margin-right: 0;
+}
+
+.footer .list-inline-item a {
+    color: #333;
+    font-size: 24px;
+}
+
+.footer .list-inline-item a:hover {
+    color: #555;
+}
+
+
+@media (max-width: 499px) {
+    .cart-text {
+        display: none;
+    }
+
+    .paddingx-8 {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+
+/* Product Card */
+
+.product-container .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-container .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-container .card .card-body {
+    padding: 10px 0;
+}
+
+.card .card-footer {
+    padding: 10px 0;
+}
+
+.card .card-footer small {
+    font-size: 12px;
+}
+
+.card .card-footer .lead {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .card-footer .text-muted {
+    color: #999;
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
+
+ /* Style for the "Go Back to Top" button */
+ .back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999; 
+    display: none; 
+    background-color: rgba(0, 123, 255, 0.5); 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+/* Brighten the button color on hover */
+.back-to-top:hover {
+    background-color: rgba(0, 123, 255, 1); 
+}
+
+/* Show the button when scrolling down */
+.show-back-to-top {
+    display: block;
+}

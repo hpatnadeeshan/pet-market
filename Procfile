@@ -1,0 +1,1 @@
+web: gunicorn pet_market.wsgi:application
